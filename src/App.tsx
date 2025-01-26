@@ -111,7 +111,7 @@ function App() {
           </a>
           <a
             href="https://click-double01.manabi-time.com/"
-            className="aspect-square bg-blue-300 hover:bg-blue-400 text-white p-6 rounded-lg transform hover:scale-105 transition-all duration-300 flex flex-col items-center justify-center group"
+            className="aspect-square bg-purple-300 hover:bg-purple-400 text-white p-6 rounded-lg transform hover:scale-105 transition-all duration-300 flex flex-col items-center justify-center group"
           >
             <div className="relative mb-2">
               <Star
@@ -131,7 +131,7 @@ function App() {
           </a>
           <a
             href="https://dragdrop01.manabi-time.com/"
-            className="aspect-square bg-orange-400 hover:bg-orange-500 text-white p-6 rounded-lg transform hover:scale-105 transition-all duration-300 flex flex-col items-center justify-center group"
+            className="aspect-square bg-yellow-400 hover:bg-yellow-500 text-white p-6 rounded-lg transform hover:scale-105 transition-all duration-300 flex flex-col items-center justify-center group"
           >
             <div className="relative mb-2">
               <Star
