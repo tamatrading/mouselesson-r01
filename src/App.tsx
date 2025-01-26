@@ -2,11 +2,35 @@ import React from 'react';
 import { Star } from 'lucide-react';
 
 function App() {
+  const [warningPosition, setWarningPosition] = React.useState({ x: 0, y: 0 });
+  const [showWarning, setShowWarning] = React.useState(false);
+
+  const handleContextMenu = (e: React.MouseEvent) => {
+    e.preventDefault();
+    setWarningPosition({ x: e.clientX, y: e.clientY });
+    setShowWarning(true);
+    setTimeout(() => setShowWarning(false), 2000);
+  };
+
   return (
     <div
       className="min-h-screen bg-gray-50 flex items-center justify-center p-8"
       role="main"
+      onContextMenu={handleContextMenu}
     >
+      {showWarning && (
+        <div 
+          className="fixed bg-red-100 border border-red-400 text-red-700 px-4 py-2 rounded-lg shadow-lg text-sm transition-opacity duration-300 opacity-90 z-50"
+          style={{
+            left: `${warningPosition.x}px`,
+            top: `${warningPosition.y}px`,
+            transform: 'translate(-50%, -120%)'
+          }}
+          role="alert"
+        >
+          みぎクリックしないでね
+        </div>
+      )}
       <div className="w-full max-w-6xl flex gap-8">
         {/* Left side - Paper note */}
         <div
