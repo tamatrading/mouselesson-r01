@@ -70,7 +70,7 @@ function App() {
           aria-label="マウス練習ゲーム"
         >
           <a
-            href="https://click01.manabi-time.com/"
+            href="click/"
             className="aspect-square bg-red-400 hover:bg-red-500 text-white p-6 rounded-lg transform hover:scale-105 transition-all duration-300 flex flex-col items-center justify-center group"
           >
             <div className="relative mb-2">
@@ -90,7 +90,7 @@ function App() {
             </p>
           </a>
           <a
-            href="https://dclick01.manabi-time.com/"
+            href="double-click/"
             className="aspect-square bg-blue-500 hover:bg-blue-600 text-white p-6 rounded-lg transform hover:scale-105 transition-all duration-300 flex flex-col items-center justify-center group"
           >
             <div className="relative mb-2">
@@ -110,7 +110,7 @@ function App() {
             </p>
           </a>
           <a
-            href="https://click-double01.manabi-time.com/"
+            href="mixed/"
             className="aspect-square bg-purple-300 hover:bg-purple-400 text-white p-6 rounded-lg transform hover:scale-105 transition-all duration-300 flex flex-col items-center justify-center group"
           >
             <div className="relative mb-2">
@@ -130,7 +130,7 @@ function App() {
             </p>
           </a>
           <a
-            href="https://dragdrop01.manabi-time.com/"
+            href="drag/"
             className="aspect-square bg-yellow-400 hover:bg-yellow-500 text-white p-6 rounded-lg transform hover:scale-105 transition-all duration-300 flex flex-col items-center justify-center group"
           >
             <div className="relative mb-2">
