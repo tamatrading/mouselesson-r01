@@ -71,17 +71,17 @@ function App() {
         >
           <a
             href="click/"
-            className="aspect-square bg-red-400 hover:bg-red-500 text-white p-6 rounded-lg transform hover:scale-105 transition-all duration-300 flex flex-col items-center justify-center group"
+            className="aspect-square relative overflow-hidden text-white rounded-lg transform hover:scale-105 transition-all duration-300 flex flex-col items-center justify-end group"
+            style={{ backgroundImage: 'url(preview-click.png)', backgroundSize: 'cover', backgroundPosition: 'center' }}
           >
-            <div className="relative mb-2">
-              <Star
-                className="w-12 h-12 absolute -top-6 -left-10 text-white animate-spin-slow"
-                fill="currentColor"
-              />
-              <span className="text-2xl font-bold">01</span>
-            </div>
+            <div className="absolute inset-0 bg-gradient-to-b from-black/30 via-transparent to-transparent group-hover:from-black/40 transition-colors" />
+            <Star
+              className="w-10 h-10 absolute top-2 left-2 text-white drop-shadow animate-spin-slow"
+              fill="currentColor"
+            />
+            <span className="absolute top-3 right-3 text-2xl font-bold drop-shadow">01</span>
             <p
-              className="text-center text-sm mt-4 group-hover:scale-105 transition-transform"
+              className="relative text-center text-sm p-3 bg-black/35 w-full group-hover:scale-105 transition-transform"
               lang="ja"
             >
               からふるぼーるわりげーむ
@@ -91,17 +91,17 @@ function App() {
           </a>
           <a
             href="double-click/"
-            className="aspect-square bg-blue-500 hover:bg-blue-600 text-white p-6 rounded-lg transform hover:scale-105 transition-all duration-300 flex flex-col items-center justify-center group"
+            className="aspect-square relative overflow-hidden text-white rounded-lg transform hover:scale-105 transition-all duration-300 flex flex-col items-center justify-end group"
+            style={{ backgroundImage: 'url(preview-doubleclick.png)', backgroundSize: 'cover', backgroundPosition: 'center' }}
           >
-            <div className="relative mb-2">
-              <Star
-                className="w-12 h-12 absolute -top-6 -left-10 text-white animate-bounce"
-                fill="currentColor"
-              />
-              <span className="text-2xl font-bold">02</span>
-            </div>
+            <div className="absolute inset-0 bg-gradient-to-b from-black/30 via-transparent to-transparent group-hover:from-black/40 transition-colors" />
+            <Star
+              className="w-10 h-10 absolute top-2 left-2 text-white drop-shadow animate-bounce"
+              fill="currentColor"
+            />
+            <span className="absolute top-3 right-3 text-2xl font-bold drop-shadow">02</span>
             <p
-              className="text-center text-sm mt-4 group-hover:scale-105 transition-transform"
+              className="relative text-center text-sm p-3 bg-black/35 w-full group-hover:scale-105 transition-transform"
               lang="ja"
             >
               からふるぼーるわりげーむ
@@ -111,17 +111,17 @@ function App() {
           </a>
           <a
             href="mixed/"
-            className="aspect-square bg-purple-300 hover:bg-purple-400 text-white p-6 rounded-lg transform hover:scale-105 transition-all duration-300 flex flex-col items-center justify-center group"
+            className="aspect-square relative overflow-hidden text-white rounded-lg transform hover:scale-105 transition-all duration-300 flex flex-col items-center justify-end group"
+            style={{ backgroundImage: 'url(preview-mixed.png)', backgroundSize: 'cover', backgroundPosition: 'center' }}
           >
-            <div className="relative mb-2">
-              <Star
-                className="w-12 h-12 absolute -top-6 -left-10 text-white animate-pulse"
-                fill="currentColor"
-              />
-              <span className="text-2xl font-bold">03</span>
-            </div>
+            <div className="absolute inset-0 bg-gradient-to-b from-black/30 via-transparent to-transparent group-hover:from-black/40 transition-colors" />
+            <Star
+              className="w-10 h-10 absolute top-2 left-2 text-white drop-shadow animate-pulse"
+              fill="currentColor"
+            />
+            <span className="absolute top-3 right-3 text-2xl font-bold drop-shadow">03</span>
             <p
-              className="text-center text-sm mt-4 group-hover:scale-105 transition-transform"
+              className="relative text-center text-sm p-3 bg-black/35 w-full group-hover:scale-105 transition-transform"
               lang="ja"
             >
               からふるぼーるわりげーむ
@@ -131,17 +131,17 @@ function App() {
           </a>
           <a
             href="drag/"
-            className="aspect-square bg-yellow-400 hover:bg-yellow-500 text-white p-6 rounded-lg transform hover:scale-105 transition-all duration-300 flex flex-col items-center justify-center group"
+            className="aspect-square relative overflow-hidden text-white rounded-lg transform hover:scale-105 transition-all duration-300 flex flex-col items-center justify-end group"
+            style={{ backgroundImage: 'url(preview-drag.png)', backgroundSize: 'cover', backgroundPosition: 'center' }}
           >
-            <div className="relative mb-2">
-              <Star
-                className="w-12 h-12 absolute -top-6 -left-10 text-white animate-wiggle"
-                fill="currentColor"
-              />
-              <span className="text-2xl font-bold">04</span>
-            </div>
+            <div className="absolute inset-0 bg-gradient-to-b from-black/30 via-transparent to-transparent group-hover:from-black/40 transition-colors" />
+            <Star
+              className="w-10 h-10 absolute top-2 left-2 text-white drop-shadow animate-wiggle"
+              fill="currentColor"
+            />
+            <span className="absolute top-3 right-3 text-2xl font-bold drop-shadow">04</span>
             <p
-              className="text-center text-sm mt-4 group-hover:scale-105 transition-transform"
+              className="relative text-center text-sm p-3 bg-black/35 w-full group-hover:scale-105 transition-transform"
               lang="ja"
             >
               ぼーるはこびげーむ
