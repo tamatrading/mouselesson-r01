@@ -13,6 +13,13 @@
     <meta name="robots" content="index, follow" />
     <meta name="twitter:card" content="summary_large_image" />
     <link rel="canonical" href="https://manabi-time.com/mouse/" />
+    <!-- ページ下部の運営者表記（2026-09-18 追加）。ゲーム本体は #root の中にあり
+         min-h-screen（画面の高さいっぱい）なので、フッターぶんの高さを差し引いて
+         余計なスクロールが出ないようにしている -->
+    <style>
+      .site-foot{height:24px;box-sizing:border-box;display:flex;align-items:center;justify-content:center;font-family:system-ui,-apple-system,"Segoe UI","Hiragino Kaku Gothic ProN","Noto Sans JP",sans-serif;font-size:11px;color:#64748b;background:#fff;border-top:1px solid #e2e8f0}
+      #root>*{min-height:calc(100vh - 24px)!important}
+    </style>
   </head>
   <body>
     <div id="root">
@@ -20,6 +27,7 @@
         このページを表示するにはJavaScriptを有効にしてください。マウス操作の練習ゲームを楽しむために必要です。
       </noscript>
     </div>
+    <footer class="site-foot">運営：まなびタイム事務局（代表 Makoto Takeuchi）／&copy; 2026 ManabiTime</footer>
     <script type="module" src="/src/main.tsx"></script>
   </body>
 </html>
